@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DR Vision AI — Diabetic Retinopathy Severity Classification
 
 A full-stack, educational deep-learning web application that grades retinal fundus images into five
@@ -275,3 +276,7 @@ npm.cmd run dev
 
 To use the preserved production bundle instead, clear `DR_MODEL_PATH` before starting the backend. The `.env.example`
 file lists supported environment variables; the application reads process environment variables directly.
+=======
+# dr-vision-ai
+Deep Learning-based Diabetic Retinopathy Severity Classification using ResNet-50, DenseNet-121, feature fusion, PCA, and machine learning to classify retinal fundus images into five severity levels.
+>>>>>>> a93c47162bb026990c44d249078b4b5e6b5c1f7d
