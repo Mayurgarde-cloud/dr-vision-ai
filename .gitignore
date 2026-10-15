@@ -15,3 +15,6 @@ backend/storage/*
 backend/models/*
 !backend/models/.gitkeep
 .DS_Store
+
+README.local-backup.md
+.gitignore.local-backup
