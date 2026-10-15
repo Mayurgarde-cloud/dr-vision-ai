@@ -1,0 +1,109 @@
+{
+  "accuracy": 0.5,
+  "macro_precision": 0.2,
+  "macro_recall": 0.4,
+  "macro_f1": 0.26666666666666666,
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "per_class": [
+    {
+      "index": 0,
+      "name": "No DR",
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 1
+    },
+    {
+      "index": 1,
+      "name": "Mild DR",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    {
+      "index": 2,
+      "name": "Moderate DR",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    {
+      "index": 3,
+      "name": "Severe DR",
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 2
+    },
+    {
+      "index": 4,
+      "name": "Proliferative DR",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    }
+  ],
+  "class_distribution": [
+    1,
+    1,
+    1,
+    2,
+    1
+  ],
+  "n_samples": 6,
+  "evaluated_at": "2026-10-15T03:18:06+00:00",
+  "val_accuracy": 0.3333333333333333,
+  "split": {
+    "train": 28,
+    "val": 6,
+    "test": 6
+  },
+  "config": {
+    "pretrained": false,
+    "clahe": true,
+    "pca_components": 16,
+    "augment": 1,
+    "ada_estimators": 3,
+    "rf_trees": 20,
+    "seed": 42
+  }
+}
